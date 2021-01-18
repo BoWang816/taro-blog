@@ -1,0 +1,13 @@
+{
+    "miniprogramRoot": "./dist",
+    "projectname": "taro-blog",
+    "description": "小程序博客，基于Taro，同步hexo博客数据",
+    "appid": "touristappid",
+    "setting": {
+        "urlCheck": true,
+        "es6": false,
+        "postcss": false,
+        "minified": false
+    },
+    "compileType": "miniprogram"
+}
