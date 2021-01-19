@@ -1,3 +1,7 @@
+const path = require('path');
+
+const { resolve } = path;
+
 const config = {
     projectName: 'myApp',
     date: '2021-1-18',
@@ -16,6 +20,14 @@ const config = {
         options: {},
     },
     framework: 'react',
+    alias: {
+        '@components': resolve(__dirname, '..', 'src/components'),
+        '@constants': resolve(__dirname, '..', 'src/constants'),
+        '@assets': resolve(__dirname, '..', 'src/assets'),
+        '@common': resolve(__dirname, '..', 'src/common'),
+        '@pages': resolve(__dirname, '..', 'src/pages'),
+        '@utils': resolve(__dirname, '..', 'src/utils'),
+    },
     mini: {
         postcss: {
             pxtransform: {

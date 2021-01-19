@@ -5,11 +5,11 @@ module.exports = {
         'import/resolver': {
             alias: [
                 ['@utils', './src/utils'],
+                ['@pages', './src/pages'],
                 ['@common', './src/common'],
                 ['@assets', './src/assets'],
                 ['@components', './src/components'],
-                ['@const', './src/const'],
-                ['@contexts', './src/contexts'],
+                ['@constants', './src/constants'],
             ],
         },
     },

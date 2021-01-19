@@ -1,13 +1,45 @@
 {
-    "miniprogramRoot": "./dist",
+    "miniprogramRoot": "dist/",
     "projectname": "taro-blog",
     "description": "小程序博客，基于Taro，同步hexo博客数据",
-    "appid": "touristappid",
+    "appid": "wx6e5efb563db5fab6",
     "setting": {
         "urlCheck": true,
         "es6": false,
+        "enhance": false,
         "postcss": false,
-        "minified": false
+        "preloadBackgroundData": false,
+        "minified": false,
+        "newFeature": false,
+        "coverView": true,
+        "nodeModules": false,
+        "autoAudits": false,
+        "showShadowRootInWxmlPanel": true,
+        "scopeDataCheck": false,
+        "uglifyFileName": false,
+        "checkInvalidKey": true,
+        "checkSiteMap": true,
+        "uploadWithSourceMap": true,
+        "compileHotReLoad": false,
+        "useMultiFrameRuntime": false,
+        "useApiHook": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        },
+        "enableEngineNative": false,
+        "bundle": false,
+        "useIsolateContext": true,
+        "useCompilerModule": true,
+        "userConfirmedUseCompilerModuleSwitch": false,
+        "userConfirmedBundleSwitch": false,
+        "packNpmManually": false,
+        "packNpmRelationList": [],
+        "minifyWXSS": true
     },
-    "compileType": "miniprogram"
+    "compileType": "miniprogram",
+    "simulatorType": "wechat",
+    "simulatorPluginLibVersion": {},
+    "condition": {}
 }
